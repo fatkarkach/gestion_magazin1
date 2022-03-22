@@ -1,0 +1,73 @@
+body {
+    background-image: url("backgound1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+  }
+  .container {
+    width: 400px;
+    height: 473px;
+  /*  Pour centrer le contenu d'un bloc  on utilise la prop text-align  */
+    text-align: center; 
+  /*  Pour centrer un bloc on doit d'abord préciser le width et utiliser ensuite la prop margin  */
+    margin : auto;
+    margin-top: 80px;
+    border-radius: 5px;
+    border: 4px solid #000000;
+    border-radius: 20px;
+  }
+  img {
+    width: 150px;
+    height:150px;
+    border-radius:50%;
+    margin-top:-70px;
+    margin-bottom: 30px;
+  }
+   input {
+    height: 60px;
+    width: 300px;
+    font-size: 18px;
+    font-family: Lato;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-left: 70px;
+    border: 3px solid #000000;
+    border-radius: 20px;
+  }
+  .form-input {
+    position:relative;
+  }
+  .fa-lock, .fa-user {
+    position:absolute;
+    top: 9px;
+    left: 80px;
+    color:black;
+  }
+.envoie
+{
+width: 150px;
+height: 60px;
+padding: 0;
+background: #7451EB;
+border: 1px #7451EB;
+border-radius: 40px;
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+}
+.information1
+{
+  margin-top: -10px;
+
+}
+i.fa.fa-user.fa-2x {
+  margin-left: -34px;
+  margin-top: 9px;
+  font-size: 27px;
+}
+i.fa.fa-lock.fa-2x
+{
+  margin-left: -34px;
+  margin-top: 9px;
+  font-size: 27px;
+}

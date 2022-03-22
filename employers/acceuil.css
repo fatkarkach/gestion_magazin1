@@ -1,0 +1,285 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+img#logo {
+  margin-top: -13px;
+  height: 50px;
+}
+
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: #7451EB;;
+  position: relative;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 550;
+  font-family: Poppins;
+  padding: 10px 10px 10px 10px;
+}
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+.nav > .nav-links > ul{
+  padding: 0;
+  margin-top: 5px;
+  list-style: none;
+  position: relative;
+
+}
+.nav .nav-links ul a.icon{
+margin-left: 80px;
+margin-right: 10px;
+}
+.panel{ 
+  height:100%; 
+  background:#7451EB;
+  padding-top:0px;
+  position:fixed;
+  padding-right:0px;
+  width: 220px;
+  
+}
+.panel ul li{
+  list-style:none;
+  padding: 10px 15px;
+  position: relative;
+  top: 40px;
+font-family: Poppins;
+font-weight: bolder;
+font-size: 20px;
+line-height: 60px;
+}
+.panel .fas{
+  margin-right:10px; 
+  display:inline;
+ color: white;
+ font-size: 25px;
+}
+li button
+{
+  position: absolute;
+width: 120px;
+height: 50px;
+color:  white;
+background: #000000;
+border-radius: 40px;
+font-family: Poppins;
+font-style: normal;
+font-weight: bolder;
+}
+@media (max-width: 800px) {
+  .panel  {
+    width:100px;  
+    height: 80%;
+    background-color:white;
+}
+.panel .fas{
+margin-left:-16px;
+color:black;
+} 
+li span {
+    display:none; 
+}
+li button {
+    display:none; 
+}
+}
+/*contenu*/
+table {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;  
+  overflow-x: auto;
+  white-space: nowrap;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-left: -27%;
+  margin-top: 26px;
+  
+}
+h1 span
+{
+  color: #7451EB;
+}
+ th {
+      
+          text-align: center;
+          font-family: Poppins;
+      font-style: normal;
+      font-weight: 600 ;
+      font-size: 20px;
+      width: 100px;
+      height: 50px;
+}
+ td {
+          font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      width: 80px;
+      height: 45px;
+      text-align: center;
+  }
+  td i{
+      color: black;
+      margin-left: 10px;
+  }
+
+ th,td {
+  padding: 6px 12px;
+  border: 1px solid black;
+}
+#titre2{
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  margin-top: 60px;
+}
+#titre2 span
+{
+  color: #7451EB;
+}
+
+.wrapper{
+ 
+  margin-left:  50%;
+}
+.affichage
+{
+  
+  /*box-shadow: 5px 5px #7451EB;*/
+  width:300px;
+  margin: 45%;
+  margin-top: -100px;
+}
+
+h1{
+  text-align: center;
+}
+.affichage >div
+{
+  display: flex;
+  font-family: Poppins;
+}
+.affichage button
+{
+  border: solid  #7451EB;
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  margin-left:34%;
+  margin-bottom: 30PX;
+  margin-top: 20px;
+  background-color: white;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: bold;
+}
+button#bt_supp {
+  width: 250px;
+  margin-top:0;
+}
+.affichage  a{
+  text-decoration: none;
+  color: black;
+}
+.affichage button:hover
+{
+  background-color: #7451EB;
+
+}
+button#bt_supp:hover
+{
+  background-color: #7451EB;
+}
+.ajouter
+{
+  border: solid 2px #7451EB;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 18Px;
+}
+.ajouter:hover
+{
+  background-color: #7451EB;
+  color: black;
+}
+.tableau
+{
+  background-color: #1177ca;
+}
+a.ajouter {
+  margin-left: -27%;
+}
+.supprimer p
+{
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  margin-left: -8%;
+
+}
+p input
+{
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: white;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p input:hover
+{
+  background-color: #7451EB;
+}
+p button
+{
+  border: solid  #7451EB;
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: white;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.nav-links i {
+  font-size: 30px;
+  margin-left: 25px;
+  color: white;
+}
+.nav-links {
+  margin-top: 4px;
+  MARGIN-RIGHT: 33px;
+}
+ul#nav {
+  display: flex;
+}

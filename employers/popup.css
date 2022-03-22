@@ -1,0 +1,86 @@
+body
+{
+  background-color: hsl(0deg 0% 77% / 77%);
+}
+.affichage
+{
+    position: absolute;
+    background-color: white;
+  
+ 
+}
+div input
+{
+  width: 240px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: white;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 10px;
+  margin-left: 22%;
+}
+textarea
+{
+  width: 240px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: white;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  margin-left: 22%;
+}
+#envoye
+{
+    border: solid  #7451EB;
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: white;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: bold;
+}
+#envoye:hover
+{
+background-color: #7451EB;;
+}
+.read
+{
+  display: flex;
+  margin-left: -45px;
+}
+div p{
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+}
+.creation {
+  display: flex;
+  margin-left: -54px;
+}
+input#creer {
+  width: 100px;
+}
+button#cancel {
+  margin-top: 0px;
+}
+.lire {
+  display: flex;
+  margin-left: -23%;
+}
+div#edit {
+  width: 400px;
+  margin-top: 39px;
+}
+button#modifier {
+  margin-top: 0px;
+}
+div#cree {
+  margin-top: 48px;
+  width: 400px;
+}

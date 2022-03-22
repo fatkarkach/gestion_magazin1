@@ -1,0 +1,56 @@
+.image_product img{
+    width: 20px;
+    height: 20px;
+}
+img.image_product {
+    width: 122px;
+    height: 122px;
+    margin-left: 37%;
+   
+}
+.affichage {
+    margin-left: 45%;
+    MARGIN-TOP: 10PX;
+    width: 400px;
+    height: 500px;
+}
+div#add_products {
+    margin-left: -6.80%;
+    width: 400px;
+    MARGIN-TOP: -8PX;
+}
+select
+{
+    width: 240px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: white;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-left: 22%;
+}
+.text
+{
+    width: 343px;
+    MARGIN-LEFT: 7%;
+}
+input#Image {
+    padding: 9px;
+    border: solid 1px;
+}
+button#back {
+    margin-left: 38%;
+}
+div#supp2 {
+    height: 234px;
+    margin-top: 1%;
+    width: 300px;
+}
+div#update1 {
+    height: 427px;
+}
+p#produit {
+    margin: auto;
+}
